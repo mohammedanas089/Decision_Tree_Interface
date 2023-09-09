@@ -154,7 +154,7 @@ if uploaded_file:
             st.write("Confusion matrix is not available for this model.")
 
 
-        import pdpbox
+        #import pdpbox
 
         #st.subheader("Partial Dependence Plot")
         

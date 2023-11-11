@@ -17,7 +17,7 @@ def load_data(file):
     df = df.fillna(0)
     return df
 
-st.title("Student Performance Prediction App")
+st.title("Prediction App")
 
 st.sidebar.title("Upload Dataset")
 uploaded_file = st.sidebar.file_uploader("Upload CSV File", type=["csv"])
